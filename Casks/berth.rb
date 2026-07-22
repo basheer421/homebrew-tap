@@ -7,7 +7,7 @@ cask "berth" do
   desc "Docker runtime manager for macOS, powered by Colima"
   homepage "https://github.com/basheer421/Berth"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Berth.app"
 
